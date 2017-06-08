@@ -12,7 +12,7 @@ public class Convert {
     public String convertStr(String content){
         char [] array = content.toCharArray();
         char temp;
-        for (int i = 0,length = content.length()-1;i < length/2 ;i++){
+        for (int i = 0,length = content.length()-1;i < length ;i++){
             temp = array[i];
             array[i] = array[length - i];
             array[length - i] = temp;
